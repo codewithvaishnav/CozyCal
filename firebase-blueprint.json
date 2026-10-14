@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "Booking": {
+      "title": "Booking",
+      "description": "Secure information regarding a farmhouse guest reservation",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "customerName": { "type": "string" },
+        "phone": { "type": "string" },
+        "checkInDate": { "type": "string" },
+        "checkOutDate": { "type": "string" },
+        "totalAmount": { "type": "number" },
+        "advanceAmount": { "type": "number" },
+        "remainingAmount": { "type": "number" },
+        "receivedBy": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": ["Inquiry", "Confirmed", "Completed", "Cancelled"]
+        },
+        "notes": { "type": "string" },
+        "bookingSource": { "type": "string" },
+        "history": { "type": "array" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": [
+        "customerName",
+        "phone",
+        "checkInDate",
+        "checkOutDate",
+        "totalAmount",
+        "advanceAmount",
+        "remainingAmount",
+        "receivedBy",
+        "status",
+        "notes",
+        "history",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "firestore": {
+    "bookings/{bookingId}": {
+      "schema": "Booking",
+      "description": "Saves farmhouse reservation metrics, financial properties, and logs securely."
+    }
+  }
+}
