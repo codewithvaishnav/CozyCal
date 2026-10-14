@@ -2,7 +2,7 @@
 
 An intuitive, responsive, and real-time reservation management platform designed specifically for farmhouses, holiday villas, and event venues. It features interactive calendar scheduling, instant conflict detection, financial balance tracking, guest audit histories, and team member management.
 
-🔗 **Live App URL:** [https://ais-pre-w4kquopyxeekdoudlcojan-939136816310.asia-east1.run.app](https://ais-pre-w4kquopyxeekdoudlcojan-939136816310.asia-east1.run.app)
+🔗 **Live App URL:** https://cozy-admin.web.app/
 
 ---
 
