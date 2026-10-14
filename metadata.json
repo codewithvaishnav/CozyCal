@@ -1,6 +1,0 @@
-{
-  "name": "Farmhouse Booking Calendar",
-  "description": "An intuitive and responsive booking management system for farmhouses with an interactive calendar, stats, and conflict detection",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
