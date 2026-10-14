@@ -51,56 +51,6 @@ An intuitive, responsive, and real-time reservation management platform designed
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Node.js** (v18.0.0 or higher recommended)
-- **npm** or **yarn** / **pnpm**
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/farmhouse-booking-calendar.git
-   cd farmhouse-booking-calendar
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables:**
-   Create a `.env` file in the root directory and add your Firebase credentials:
-   ```env
-   VITE_FIREBASE_API_KEY=your_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-   VITE_FIREBASE_PROJECT_ID=your_project_id
-   VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
-   VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-   VITE_FIREBASE_APP_ID=your_app_id
-   ```
-
-4. **Start the local development server:**
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## 📦 Available Scripts
-
-| Command | Description |
-|---|---|
-| `npm run dev` | Runs the app in development mode on port 3000 |
-| `npm run build` | Compiles TypeScript and builds the production bundle in `dist/` |
-| `npm run preview` | Locally preview the production build |
-| `npm run lint` | Runs TypeScript compiler checks without emitting code |
-| `npm run clean` | Removes compiled distribution directories |
-
----
 
 ## 📂 Project Structure
 
